@@ -1,5 +1,8 @@
 name: Sync fork with upstream
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 0 * * *'
